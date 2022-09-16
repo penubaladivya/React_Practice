@@ -1,11 +1,11 @@
-import React, {Component} from "react"
-import {render} from "react-dom"
-import {BrowserRouter as Router,Route,Switch} from "react-router-dom"
-import Header from "./Header"
-import Footer from "./Footer"
-import About from "./About"
-import ContactUs from "./ContactUs"
-import Home from "./Home"
+import React, {Component} from "react";
+import {render} from "react-dom";
+import {BrowserRouter as Router,Route,Switch} from "react-router-dom";
+import Header from "./Header";
+import Footer from "./Footer";
+import About from "./About";
+import ContactUs from "./ContactUs";
+import Home from "./Home";
 
 class App extends Component{
   constructor(){

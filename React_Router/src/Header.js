@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
-import "./style.css";
+import "./style.css"
 
 class Header extends Component {
   render() {
-    <div className="header">
+    return(
+      <div className="header">
       <div className="container">
         <div className="logo">
           <NavLink to="/">Logo</NavLink>
@@ -24,7 +25,8 @@ class Header extends Component {
         </div>
         <div className="clear"></div>
       </div>
-    </div>;
+    </div>
+    )  
   }
 }
 export default Header

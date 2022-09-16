@@ -13,7 +13,7 @@ class ContactUs extends Component{
           Bengaluru<br/>
           Karnataka
         </address>
-        <p style={{padingLeft:"2rem"}}></p>
+        <p style={{paddingLeft:"2rem"}}></p>
       </div>
     )
   }
